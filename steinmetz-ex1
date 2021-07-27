@@ -1,0 +1,33 @@
+# Answer to Exercise 1: Spike Counts
+
+# Write some code to see which area got more overall spikes. You want to count 
+# the ones in each matrix.
+
+#Hints: 
+  # you could use np.nonzeros
+  # OR
+  # You could write a for loop that goes through each row and column and checks 
+  # if it's a 1 or 0, then gives you some sort of input. 
+ 
+ ____________________________________________________________________
+
+# For each of the 111 rows: you want to run through each row and check each value in each column 
+# to see whether it's a 1 or a 0. 
+
+vis_data.shape
+ans = np.nonzero(vis_data)
+vis_data[2,181]
+len(ans[0])
+
+# Answer:
+# This vis_data matrix is 111x250, which means that there are 27,750 entries. Out of 
+# these number of entries, 411 of them are 1's. There were 411 spikes in the 
+# total visual neurons over time. 
+
+ans2 = np.nonzero(non_vis_data)
+len(ans2[0])
+
+# Answer:
+# This non_vis_data matrix is 111x250, which means that there are 27,750 entries. 
+# Out of these number of entries, 590 of them are 1's. There were 590 spikes 
+# in the total visual neurons over time. 
