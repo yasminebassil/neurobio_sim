@@ -50,6 +50,6 @@ len(ans2[0])
 # Answer:
 # This non_vis_data matrix is 111x250, which means that there are 27,750 entries. 
 # Out of these number of entries, 590 of them are 1's. There were 590 spikes 
-# in the total visual neurons over time. 
+# in the total non-visual neurons over time. 
 
 ```
