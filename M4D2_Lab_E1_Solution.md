@@ -4,7 +4,7 @@ Write some code below to check the size of both data matrices (`vis_data` & `non
 
 ## Solution:
 
-```
+```ruby
 # Hint: Check out the NumPy's .shape function.
 
 # Getting the size of 'vis_data'
@@ -18,7 +18,7 @@ print(non_vis_data.shape)
 
 ## Or, a simpler way:
 
-```
+```ruby
 # Getting the size of 'vis_data'
 print(vis_data.shape)
 
