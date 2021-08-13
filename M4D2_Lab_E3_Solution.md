@@ -1,4 +1,4 @@
-# Exercise 3: Quantifying the difference in spiking between visual & non-visual areas (Method 1)
+# Exercise 3: Quantifying differences in spiking - Method 1
 
 One way that we will observe differences in neural activation in both areas is by looking at <i> total number of spikes in visual areas vs non-visual 
   areas </i> during the visual behavior task. This is known as the <b> total spike count.</b>
